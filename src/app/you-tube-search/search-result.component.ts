@@ -3,7 +3,7 @@ import { SearchResult } from './search-result.model';
 
 @Component ({
     selector: 'app-search-result',
-    templateUrl: './search-result.compoent.html'
+    templateUrl: './search-result.component.html'
 })
 
 export class SearchResultComponent implements OnInit {

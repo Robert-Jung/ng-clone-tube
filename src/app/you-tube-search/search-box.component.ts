@@ -16,7 +16,6 @@ import { SearchResult } from './search-result.model';
   template: `
     <input type="text" class="form-contorl" placeholder="Search" autofocus>
     `,
-  styleUrls: ['./search-box.component.css']
 })
 export class SearchBoxComponent implements OnInit {
   @Output() loading: EventEmitter<boolean> = new EventEmitter<boolean>();
